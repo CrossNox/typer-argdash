@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "typer_argdash"
+version = "0.1.0"
+description = ""
+authors = ["CrossNox <ijmermet@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+typer_argdash = "typer_argdash.cli:cli"
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+typer = "^0.12.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
